@@ -31,8 +31,7 @@ public class MuralPainter extends PainterPlus {
     /**
      * Paints a single straight line of the given color for the specified number of spaces.
      *
-     * @param color  The color to paint the line.
-     * @param spaces The number of spaces to paint in a row.
+     * 
      */
     public void paintLine(String color, int spaces) {
         setPaint(spaces);  // Sets the amount of paint for the line
